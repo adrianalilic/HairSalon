@@ -1,0 +1,82 @@
+.salon__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid;
+    flex: 100%;
+    margin: 15px 0;
+    color: white;
+    background-color: rgba(100, 23, 68, 0.815);
+}
+
+.salon__name {
+  margin: 10px;
+}
+
+.salon__content {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+
+.salon__form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 10px;
+}
+
+.salon__input-group {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.salon__radio-button-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.salon__radio-button-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 3px 0;
+}
+  
+.salon__records {
+  display: flex;
+  flex-direction: column;
+  flex: 100%;
+  color: rgb(0, 0, 0);
+  background-color: rgb(235, 164, 205);
+  overflow-x: auto;
+}
+
+.salon__records-title {
+  text-align: center;
+}
+
+.reservation__button {
+  margin: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.edit__btn {
+  background-color: rgb(141, 41, 223);
+}
+
+.delete__btn {
+  background-color: rgb(223, 15, 102);
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th, td {
+  padding: 10px 20px;
+  border: 1px solid #000;
+  text-align: center;
+}
